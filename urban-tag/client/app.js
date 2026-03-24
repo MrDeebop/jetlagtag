@@ -1941,7 +1941,7 @@ function buildRulesModal(c) {
              <br><br>
              <strong>Transport</strong> costs coins per minute — only the Runner pays. ${transportStr}. Stop the timer when you exit or you'll keep getting charged.
              <br><br>
-             <strong>Challenges</strong> appear while you run — complete them for coin rewards. Veto a challenge to skip it, but you'll be locked out of transport and new challenges for ${c ? mins(c.VETO_DURATION_MS) : "5 minutes"}.
+             <strong>Challenges</strong> appear while you run — complete them for coin rewards. VIDEO PROOF! Veto a challenge to skip it, but you'll be locked out of transport and new challenges for ${c ? mins(c.VETO_DURATION_MS) : "5 minutes"}.
              <br><br>
              <strong>Shop power-ups</strong> (spend your coins):<br>${shopStr}`,
     },
