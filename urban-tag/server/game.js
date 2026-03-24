@@ -32,7 +32,7 @@ const CHALLENGE_POOL = [
   { id: "c3",  text: "Find out the name and career of a stranger",                                       reward: 25 },
   { id: "c4",  text: "Perform a random act of kindness",                                                 reward: 20 },
   { id: "c5",  text: "Attempt 3 cartwheels",                                                             reward: 15 },
-  { id: "c6",  text: "Find something to do a muscle up on",                                              reward: 25 },
+  { id: "c6",  text: "Find something to do a pull up on",                                              reward: 25 },
   { id: "c7",  text: "Donate to a homeless person",                                                      reward: 15 },
   { id: "c8",  text: "Climb something (not stairs)",                                                     reward: 20 },
   { id: "c9",  text: "Go to the top floor of the nearest hotel",                                         reward: 20 },
