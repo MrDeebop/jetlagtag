@@ -2,8 +2,8 @@
 
 // ─── Constants ────────────────────────────────────────────────────────────────
 
-const STARTING_CURRENCY  = 100;
-const RUNNER_BONUS       = 50;
+const STARTING_CURRENCY  = 50;
+const RUNNER_BONUS       = 25;
 const GOAL_RADIUS_METERS = 30;
 const VETO_DURATION_MS   = 5 * 60 * 1000;   // 5 minutes
 const JAIL_DURATION_MS   = 5 * 60 * 1000;   // 5 minutes
@@ -32,21 +32,21 @@ const SHOP_ITEMS = [
     id:          "location_ping",
     label:       "Location Ping",
     description: "Ping all chasers' GPS and reveal their locations to you.",
-    cost:        100,
+    cost:        50,
     emoji:       "📡",
   },
   {
     id:          "tracker_off",
     label:       "Tracker Off — 10 min",
     description: "Disables the chasers' live tracker for 10 minutes.",
-    cost:        150,
+    cost:        100,
     emoji:       "🚫",
   },
   {
     id:          "chasers_standstill",
     label:       "Chasers Stand Still — 10 min",
     description: "All chasers must stand still for 10 minutes.",
-    cost:        200,
+    cost:        150,
     emoji:       "🧊",
   },
 ];
