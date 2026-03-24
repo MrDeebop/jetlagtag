@@ -77,8 +77,8 @@ const AVG_CHALLENGE_REWARD = Math.round(
 
 const SHOP_COST_DOUBLE_SKIP        = AVG_CHALLENGE_REWARD;  // = avg challenge reward
 const SHOP_COST_LOCATION_PING      = 50;
-const SHOP_COST_TRACKER_OFF        = 100;
-const SHOP_COST_CHASERS_STANDSTILL = 150;
+const SHOP_COST_TRACKER_OFF        = 75;
+const SHOP_COST_CHASERS_STANDSTILL = 100;
 
 const SHOP_ITEMS = [
   {
