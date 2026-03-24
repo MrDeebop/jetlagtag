@@ -55,24 +55,28 @@ const TRACKER_OFF_DURATION_MS    = 10 * 60 * 1000;
 const STANDSTILL_DURATION_MS     = 10 * 60 * 1000;
 
 const CHALLENGE_POOL = [
-  { id: "c1",  text: "Take a selfie at a fountain",               reward: 20 },
-  { id: "c2",  text: "Buy something from a vending machine",      reward: 15 },
-  { id: "c3",  text: "Find a red mailbox",                        reward: 10 },
-  { id: "c4",  text: "Climb a full set of stairs",                reward: 10 },
-  { id: "c5",  text: "Find a piece of public art",                reward: 25 },
-  { id: "c6",  text: "Get a stranger to wave at the camera",      reward: 30 },
-  { id: "c7",  text: "Find a bench and sit on it for 30 seconds", reward: 10 },
-  { id: "c8",  text: "Take a photo next to a statue",             reward: 20 },
-  { id: "c9",  text: "Find a coffee shop and read the menu",      reward: 10 },
-  { id: "c10", text: "Cross a bridge on foot",                    reward: 25 },
-  { id: "c11", text: "Find a street musician",                    reward: 20 },
-  { id: "c12", text: "Spot a dog being walked",                   reward: 10 },
-  { id: "c13", text: "Find a clock tower or public clock",        reward: 15 },
-  { id: "c14", text: "Take a photo of a reflection in water",     reward: 20 },
-  { id: "c15", text: "Find a building with a green roof",         reward: 15 },
-  { id: "c16", text: "Spot someone walking a cat",                reward: 25 },
-  { id: "c17", text: "Find a mural or graffiti artwork",          reward: 15 },
-  { id: "c18", text: "Stand next to a fire hydrant",              reward: 10 },
+  { id: "c1", text: "Say hello to a police officer", reward: 15 },
+  { id: "c2", text: "Read a physical page of a book aloud", reward: 10 },
+  { id: "c3", text: "Find out the name and career of a stranger", reward: 25 },
+
+  { id: "c4", text: "Perform a random act of kindness", reward: 20 },
+  { id: "c5", text: "Attempt 3 cartwheels", reward: 15 },
+  { id: "c6", text: "Find something to do a muscle up on", reward: 25 },
+  { id: "c7", text: "Donate to a homeless person", reward: 15 },
+  { id: "c8", text: "Climb something (not stairs)", reward: 20 },
+  { id: "c9", text: "Go to the top floor of the nearest hotel", reward: 20 },
+  { id: "c10", text: "Throw something at someone", reward: 10 },
+  { id: "c11", text: "Find a foreign flag", reward: 15 },
+
+  { id: "c12", text: "Run around a city block", reward: 15 },
+  { id: "c13", text: "Find a revolving door and rotate it multiple times", reward: 20 },
+  { id: "c14", text: "Find the nearest roadblock or concrete barrier", reward: 10 },
+  { id: "c15", text: "Find two empty parking spots next to each other", reward: 15 },
+  { id: "c16", text: "Find a spot where two companies owned by the same parent company are visible", reward: 30 },
+  { id: "c17", text: "Find a copy of the Bible", reward: 10 },
+  { id: "c18", text: "Find a cosplayer", reward: 30 },
+  { id: "c19", text: "Navigate from a random Wikipedia page to the nearest building with a Wikipedia page", reward: 25 },
+  { id: "c20", text: "Win a GeoGuessr round on a Chicago-only map", reward: 30 }
 ];
 
 // ─── Helpers ──────────────────────────────────────────────────────────────────
