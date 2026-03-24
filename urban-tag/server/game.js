@@ -2,8 +2,8 @@
 
 // ─── Constants ────────────────────────────────────────────────────────────────
 
-const STARTING_CURRENCY  = 50;
-const RUNNER_BONUS       = 25;
+const STARTING_CURRENCY  = 25;
+const RUNNER_BONUS       = 10;
 const GOAL_RADIUS_METERS = 30;
 const VETO_DURATION_MS   = 5 * 60 * 1000;   // 5 minutes
 const JAIL_DURATION_MS   = 5 * 60 * 1000;   // 5 minutes
@@ -11,10 +11,10 @@ const JAIL_RADIUS_FEET   = 100;
 const JAIL_RADIUS_METERS = JAIL_RADIUS_FEET * 0.3048;
 
 const TRANSPORT_RATE_WALK  = 0;
-const TRANSPORT_RATE_BIKE  = 2;
-const TRANSPORT_RATE_BUS   = 5;
-const TRANSPORT_RATE_TRAIN = 10;
-const TRANSPORT_RATE_TAXI  = 15;
+const TRANSPORT_RATE_BIKE  = 6;
+const TRANSPORT_RATE_BUS   = 15;
+const TRANSPORT_RATE_TRAIN = 30;
+const TRANSPORT_RATE_TAXI  = 45;
 
 const TRANSPORT_RATES = {
   walk:  TRANSPORT_RATE_WALK,
