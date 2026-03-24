@@ -5,12 +5,13 @@
 // ═══════════════════════════════════════════════════════════════════════════
 
 const TRANSPORT_MODES = [
-  { mode: "walk",  icon: "🚶", label: "Walk",  rate: 0  },
-  { mode: "bike",  icon: "🚲", label: "Bike",  rate: 2  },
-  { mode: "bus",   icon: "🚌", label: "Bus",   rate: 5  },
-  { mode: "train", icon: "🚆", label: "Train", rate: 10 },
-  { mode: "taxi",  icon: "🚕", label: "Taxi",  rate: 15 },
+  { mode: "walk",  icon: "🚶", label: "Walk (Free)",  rate: 0  },
+  { mode: "bike",  icon: "🚲", label: "Bike (2)",  rate: 2  },
+  { mode: "bus",   icon: "🚌", label: "Bus (5)",   rate: 5  },
+  { mode: "train", icon: "🚆", label: "Train (10)", rate: 10 },
+  { mode: "taxi",  icon: "🚕", label: "Taxi (15)",  rate: 15 },
 ];
+//THESE LABELS MUST BE CHANGED IN CASE OF REBALANCING
 
 const VETO_DURATION_MS  = 5 * 60 * 1000;
 const JAIL_DURATION_MS  = 5 * 60 * 1000;
