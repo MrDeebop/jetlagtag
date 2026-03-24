@@ -5,7 +5,7 @@
 const STARTING_CURRENCY  = 50;
 const RUNNER_BONUS       = 25;
 const GOAL_RADIUS_METERS = 30;
-const VETO_DURATION_MS   = 5 * 60 * 1000;   // 5 minutes
+const VETO_DURATION_MS   = 10 * 60 * 1000;   // 10 minutes
 const JAIL_DURATION_MS   = 5 * 60 * 1000;   // 5 minutes
 const JAIL_RADIUS_FEET   = 100;
 const JAIL_RADIUS_METERS = JAIL_RADIUS_FEET * 0.3048;
